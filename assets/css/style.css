@@ -14,9 +14,11 @@ nav .brand-logo {
     background: #4aaaa5;
     color: #ffffff !important;
     font-size: 1.5rem;
-
-    padding: 0.4rem 1rem 0.4rem 1rem;
+    padding: 0rem 1rem 0rem 1rem;
     margin: 0 0 0 0;
+    height: 100%;
+    text-align: center;
+
 }
 
 h5 {
