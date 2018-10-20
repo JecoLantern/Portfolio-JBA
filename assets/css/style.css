@@ -62,6 +62,11 @@ form {
 }
 .start_button {
     background-color: #1c746b !important;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    margin-left: 32rem;
+    font-size: 2rem;
+    font-weight: bold;
     width: 25rem;
 }
 
@@ -110,6 +115,21 @@ nav a {
         font-size: 1.5rem;
         margin-top: 1.5rem;
     }
+    .start_button {
+        margin-left: 12rem;
+        padding-top: 2rem;
+        padding-bottom: 5rem;
+        font-size: 2rem;
+        font-weight: bold;
+        width: 25.75rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .start_button {
+        margin-left: 9rem;
+        width: 18.75rem
+    }
 }
 
 @media only screen and (max-width: 640px) {
@@ -125,5 +145,8 @@ nav a {
     .Selfie {
         max-width: 100%;
         height: auto;
+    }
+    .start_button {
+        width: 18.75rem
     }
 }
