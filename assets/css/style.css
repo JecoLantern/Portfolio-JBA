@@ -11,7 +11,7 @@ main {
 
 nav .brand-logo {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: #4aaaa5;
+    background: #1c486b;
     color: #ffffff !important;
     font-size: 1.5rem;
     padding: 0rem 1rem 0rem 1rem;
@@ -19,6 +19,46 @@ nav .brand-logo {
     height: 100%;
     text-align: center;
 
+}
+
+.AboutMe, .PortfolioMe, .ContactMe {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1c486b;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom: 0.1875rem solid #0d7a6d;
+    padding: 1rem 1rem 1.25rem 1rem;
+    width: 100%;
+    background: #ffffff;
+}
+
+.ConnectWithMe {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1c486b;
+    font-size: 1rem !important;
+    font-weight: bold !important;
+    text-align: center;
+    border-bottom: 0.1875rem solid #0d7a6d;
+    padding: 0.5rem 1rem 1rem 1rem;
+    width: 100%;
+    background: #ffffff;
+}
+.cardContentConnectWithMe {
+    padding: 0 !important;
+}
+.cardActionConnectWithMe {
+    border-top: 0 !important;
+}
+
+.GitHubIcon {
+    margin-left: 0.5rem;
+}
+form {
+    background: white;
+    margin-top: -1.6rem;
+}
+.btn {
+    background-color: #1c746b !important;
 }
 
 h5 {
@@ -33,14 +73,14 @@ h5 {
 }
 
 .nav-wrapper {
-    background: #ffffff;
+    background: #e0e4ed;
     border: #cccccc;
 }
 
 .page-footer {
     padding-top: 0;
-    border-top: 0.25rem solid #4aaaa5;
-    background: #666666;
+    border-top: 0.25rem solid #0d7a6d;
+    background: #1c486b;
 }
 
 nav a {
