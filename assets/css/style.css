@@ -153,4 +153,8 @@ nav a {
         padding-top: 0rem;
         padding-bottom: 1rem;
     }
+
+    .downloadResume {
+        font-size: 0.316rem;
+    }
 }
