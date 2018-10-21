@@ -147,6 +147,10 @@ nav a {
         height: auto;
     }
     .start_button {
-        width: 18.75rem
+        width: 14.75rem;
+        margin-left: 1.625rem;
+        font-size: 1rem;
+        padding-top: 0rem;
+        padding-bottom: 1rem;
     }
 }
